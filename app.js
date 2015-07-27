@@ -38,17 +38,14 @@ app.get('/', routes.index);
 var midi = require('midi'),
     midiOut = new midi.output();
 
-try {
-  midiOut.openPort(0);
-} catch(error) {
-  midiOut.openVirtualPort('');
-}
+midiOut.openVirtualPort('RaspberryPi Midi'); //Creates the MIDI controller called RaspberryPi Midi
 
 io.sockets.on('connection', function (socket) {
 
   // note
   socket.on('notedown',function(data){
     midiOut.sendMessage([144,data.message,100]);
+    console.log(data.message);
     socket.broadcast.emit('playeddown',{'message':data.message});
   });
 
