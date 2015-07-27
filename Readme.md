@@ -1,11 +1,8 @@
-# Node.JS / Socket.IO / MIDI Keyboard
+# NodeJS MIDI Controller
 
-Simple Keyboard to control Ableton Live ( or any other Host ) via the browser
-in real time using Node.JS, Express, Socket.IO and MIDI.
+Simple Keyboard to control host software via the browser in real time using Node.JS, Express, Socket.IO and MIDI.
 
-http://vimeo.com/38314920  
-http://vimeo.com/38315870  
-http://vimeo.com/38274225  
+(Video Demo)[https://www.youtube.com/watch?v=027eHIw4eAo]
 
 ## How to Install
     
