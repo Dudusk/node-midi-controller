@@ -4,7 +4,10 @@ Simple Keyboard to control host software via the browser in real time using Node
 
 [Video Demo](https://www.youtube.com/watch?v=027eHIw4eAo)
 
-## How to Install
+##Why?
+Because it's awesome.
+
+## Install
     
 - git clone git://github.com/derekshull/node-midi-controller.git
 - npm install
