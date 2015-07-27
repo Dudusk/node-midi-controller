@@ -14,6 +14,11 @@ Because it's awesome.
 - nano public/javascripts/script.js
 - Change line 3 to the local IP Address of your computer (leave :3000 unless you changed the port)
 - node app.js
+- Open up host software (I used Ableton Live 9)
+- Go to the settings of the host software and look for the MIDI device RaspberryPi Midi
+- Enable it as a controller and load up a sound in the host software
+- Point your browser to your local IP Address on port 3000 (Ex: 192.168.0.101:3000)
+- Have fun :-)
 
 ## License 
 
