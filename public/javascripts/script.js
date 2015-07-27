@@ -1,6 +1,6 @@
 (function($){
     // connect to socket.io
-    var socket = io.connect('http://localhost'); // change to appropiate for network access
+    var socket = io.connect('http://192.168.0.101:3000'); //change to appropiate for network access
 
     ////////////
 
