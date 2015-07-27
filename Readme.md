@@ -2,13 +2,15 @@
 
 Simple Keyboard to control host software via the browser in real time using Node.JS, Express, Socket.IO and MIDI.
 
-(Video Demo)[https://www.youtube.com/watch?v=027eHIw4eAo]
+[Video Demo](https://www.youtube.com/watch?v=027eHIw4eAo)
 
 ## How to Install
     
-    git clone git://github.com/sksmatt/nodejs-ableton-piano.git
-    npm install
-    node app.js
+- git clone git://github.com/derekshull/node-midi-controller.git
+- npm install
+- nano public/javascripts/script.js
+- Change line 3 to the local IP Address of your computer (leave :3000 unless you changed the port)
+- node app.js
 
 ## License 
 
